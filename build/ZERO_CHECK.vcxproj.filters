@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\build\CMakeFiles\98e71de019626f95f926ed241ff5f94a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2A17071D-4ED0-3CF3-A4F1-688461BF9379}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

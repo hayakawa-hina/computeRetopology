@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F0260085-0105-31CF-B315-F21E78080319}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>patchgen_demo</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\hayakawa\work\application\standalone\dfRemeshDemo\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">patchgen_demo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">patchgen_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\hayakawa\work\application\standalone\dfRemeshDemo\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">patchgen_demo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">patchgen_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\hayakawa\work\application\standalone\dfRemeshDemo\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">patchgen_demo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">patchgen_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.\..\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">patchgen_demo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">patchgen_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\patchgen.lib;Debug\AntTweakBar.lib;Debug\lp_solve.lib;Debug\OpenMesh.lib;OpenGL32.lib;GLU32.lib;freeglut_static.lib;glew32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/hayakawa/work/application/standalone/dfRemeshDemo/lib;F:/hayakawa/work/application/standalone/dfRemeshDemo/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/hayakawa/work/application/standalone/dfRemeshDemo/build/Debug/patchgen_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/hayakawa/work/application/standalone/dfRemeshDemo/build/Debug/patchgen_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\patchgen.lib;Release\AntTweakBar.lib;Release\lp_solve.lib;Release\OpenMesh.lib;OpenGL32.lib;GLU32.lib;freeglut_static.lib;glew32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/hayakawa/work/application/standalone/dfRemeshDemo/lib;F:/hayakawa/work/application/standalone/dfRemeshDemo/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/hayakawa/work/application/standalone/dfRemeshDemo/build/Release/patchgen_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/hayakawa/work/application/standalone/dfRemeshDemo/build/Release/patchgen_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\patchgen.lib;MinSizeRel\AntTweakBar.lib;MinSizeRel\lp_solve.lib;MinSizeRel\OpenMesh.lib;OpenGL32.lib;GLU32.lib;freeglut_static.lib;glew32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/hayakawa/work/application/standalone/dfRemeshDemo/lib;F:/hayakawa/work/application/standalone/dfRemeshDemo/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/hayakawa/work/application/standalone/dfRemeshDemo/build/MinSizeRel/patchgen_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/hayakawa/work/application/standalone/dfRemeshDemo/build/MinSizeRel/patchgen_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..\src;.\..\src\AntTweakBar;.\..\src\lp_solve_5.5;.\..\src\lp_solve_5.5\bfp;.\..\src\lp_solve_5.5\bfp\bfp_LUSOL;.\..\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;.\..\src\lp_solve_5.5\colamd;.\..\src\lp_solve_5.5\shared;$(DF_RD_ROOT_PATH)\LIBRARY\Windows\eigen\v3.2.8;$(DF_RD_ROOT_PATH)\LIBRARY\Windows\boost\v1.60.0\x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;EIGEN_DONT_ALIGN_STATICALLY;GLEW_STATIC;FREEGLUT_STATIC;TW_NO_LIB_PRAGMA;TW_STATIC;LoadInverseLib=FALSE;LoadLanguageLib=FALSE;LoadableBlasLib=0;INVERSE_ACTIVE=INVERSE_LUSOL;RoleIsExternalInvEngine;NOFORTIFY;CHECK_SOLUTION;YY_NEVER_INTERACTIVE;PARSER_LP;LP_MAXLINELEN=0;OM_STATIC_BUILD;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\AntTweakBar;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\colamd;F:\hayakawa\work\application\standalone\dfRemeshDemo\.\src\lp_solve_5.5\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\patchgen.lib;RelWithDebInfo\AntTweakBar.lib;RelWithDebInfo\lp_solve.lib;RelWithDebInfo\OpenMesh.lib;OpenGL32.lib;GLU32.lib;freeglut_static.lib;glew32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\..\lib;.\..\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>.\..\build\RelWithDebInfo\patchgen_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>.\..\build\RelWithDebInfo\patchgen_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\Circulator.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\Core.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\decl.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\Edgechain.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\ElemPtrT.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\Halfchain.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\Halfedge.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\helper.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\Patch.hh" />
+    <ClInclude Include="..\src\patchgen_demo\curvenetwork\Vertex.hh" />
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\patchgen_demo\Patch.h" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\Core.cc" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\Edgechain.cc" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\Halfchain.cc" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\Halfedge.cc" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\helper.cc" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\Patch.cc" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\Patch_static.cc" />
+    <ClCompile Include="..\src\patchgen_demo\curvenetwork\Vertex.cc" />
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\patchgen_demo\main.cpp" />
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\patchgen_demo\main_glut.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="patchgen.vcxproj">
+      <Project>{985c36fa-f87f-3b46-bd05-36c51150f433}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

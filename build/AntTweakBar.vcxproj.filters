@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\TwEventGLUT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\LoadOGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\LoadOGLCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\TwBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\TwColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\TwFonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\TwMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\TwOpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\AntTweakBar\TwOpenGLCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{912EC385-4214-3864-A86C-16AE30EEA50D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

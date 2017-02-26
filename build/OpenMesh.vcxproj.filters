@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Geometry\NormalConeT.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\BinaryHelper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\IOManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\OMFormat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\OMFormatT.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\reader\BaseReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\reader\OBJReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\reader\OFFReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\reader\OMReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\reader\PLYReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\reader\STLReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\writer\BaseWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\writer\OBJWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\writer\OFFWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\writer\OMWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\writer\PLYWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\writer\STLWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\IO\writer\VTKWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Mesh\ArrayKernel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Mesh\ArrayKernelT.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Mesh\BaseKernel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Mesh\PolyConnectivity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Mesh\PolyMeshT.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Mesh\TriConnectivity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Mesh\TriMeshT.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\System\omstream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Utils\BaseProperty.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Utils\Endian.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Utils\RandomNumberGenerator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\OpenMesh\Core\Utils\SingletonT.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{912EC385-4214-3864-A86C-16AE30EEA50D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

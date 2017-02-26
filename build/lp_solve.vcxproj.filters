@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\fortify.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\ini.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_crash.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_Hash.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_lib.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_matrix.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_MDO.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_mipbb.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_MPS.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_params.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_presolve.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_price.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_pricePSE.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_report.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_rlp.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_scale.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_simplex.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_SOS.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_utils.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_wlp.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\yacc_read.c">
+      <Filter>lp_solve_5.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\bfp\bfp_LUSOL\lp_LUSOL.c">
+      <Filter>lp_solve_5.5\bfp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\lusol.c">
+      <Filter>lp_solve_5.5\bfp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\colamd\colamd.c">
+      <Filter>lp_solve_5.5\colamd</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\shared\commonlib.c">
+      <Filter>lp_solve_5.5\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\shared\mmio.c">
+      <Filter>lp_solve_5.5\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\shared\myblas.c">
+      <Filter>lp_solve_5.5\shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\declare.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\fortify.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\ini.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lpkit.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lpsolve.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_bit.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_crash.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_explicit.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_fortify.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_Hash.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_lib.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_matrix.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_MDO.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_mipbb.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_MPS.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_presolve.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_price.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_pricePSE.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_report.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_rlp.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_scale.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_simplex.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_SOS.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_types.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_utils.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\lp_wlp.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\ufortify.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\yacc_read.h">
+      <Filter>lp_solve_5.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\colamd\colamd.h">
+      <Filter>lp_solve_5.5\colamd</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\shared\commonlib.h">
+      <Filter>lp_solve_5.5\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\shared\mmio.h">
+      <Filter>lp_solve_5.5\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\src\lp_solve_5.5\shared\myblas.h">
+      <Filter>lp_solve_5.5\shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\hayakawa\work\application\standalone\dfRemeshDemo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lp_solve_5.5\bfp">
+      <UniqueIdentifier>{316A3D70-E195-33A1-BB85-F2E60AFFA550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lp_solve_5.5\colamd">
+      <UniqueIdentifier>{85FEE6E4-DF42-3A35-B7CF-1600F5552DD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lp_solve_5.5\shared">
+      <UniqueIdentifier>{315FD130-4DD5-36DB-9EA8-9A36AC7DD61B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lp_solve_5.5">
+      <UniqueIdentifier>{CBA65360-3A11-3D69-B726-FE9A1485C195}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
